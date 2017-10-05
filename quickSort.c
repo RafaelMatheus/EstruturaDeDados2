@@ -20,10 +20,18 @@ int main(void)
 	int i = 0;
 	int qntAlunosCadastrados;
 	FILE *arq = NULL;
-	char url[15] = "alunos.txt";
+	char nome[15];
+	char url[15];
 	t_aluno alunos[MAX];
 	
 	printf("\t\t\t OBS: todo conteudo do arquivo esta sendo organizado pela matricula! \n\n\n");
+	
+	printf("informe apenas o nome do arquivo, exemplo: alunos: ");
+	scanf("%s", &url);
+	printf("\n\n\n\n");
+	strcat(url, ".txt");
+	
+	
 	qntAlunosCadastrados = lerArquivo(arq, alunos, url);
 	
 	if(qntAlunosCadastrados <= 0){
