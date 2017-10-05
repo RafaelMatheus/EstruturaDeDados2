@@ -1,0 +1,9 @@
+101010, Jesmiel, 20
+7890, Bassinalda, 24
+9090, Saminalda,21
+1234, Batonildo, 20
+123,raf,40
+1234789, rafael, 10
+1234,matheus, 20
+12345, josefa, 80
+123541, maria, 90s
